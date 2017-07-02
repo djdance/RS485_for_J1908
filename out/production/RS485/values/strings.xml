@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">8-N-1-9600</string>
+    <string name="title">RS485 test for J1708. Set port to 8-N-1, speed 9600</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial
+		port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown
+		reason.</string>
+    <string name="enable">Now is Reading.</string>
+    <string name="send">Ask APC</string>
+    <string name="disable">Now is Writing.</string>
+    <string name="tips">Now you can send message to other machine.</string>
+    <string name="Rec">Reception</string>
+    <string name="Emi">Emission</string>
+    <string name="clear">Clear</string>
+
+</resources>

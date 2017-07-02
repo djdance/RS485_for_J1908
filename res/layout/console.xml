@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Run Number to"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/EditTextEmission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="4 alphanumeric chars"
+            android:lines="1"
+            android:enabled="true"
+            android:text="1234">
+        </EditText>
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Send to any TwinVision " />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Route Number to"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/EditTextEmission2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Decimal less 65536"
+            android:lines="1"
+            android:enabled="true"
+            android:text="1234">
+        </EditText>
+        <Button
+            android:id="@+id/button_send2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Send to any TwinVision " />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change PR Message to"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/EditTextEmission3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Decimal less 65536"
+            android:lines="1"
+            android:enabled="true"
+            android:text="1234">
+        </EditText>
+        <Button
+            android:id="@+id/button_send3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Send to any TwinVision " />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Destination to"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/EditTextEmission4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Decimal less 65536"
+            android:lines="1"
+            android:enabled="true"
+            android:text="1234">
+        </EditText>
+        <Button
+            android:id="@+id/button_send4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Send to any TwinVision " />
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/EditTextReception"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:gravity="top"
+        android:hint="@string/Rec"
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideOverlay" >
+    </EditText>
+    <Button
+        android:id="@+id/button_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disable" />
+
+</LinearLayout>

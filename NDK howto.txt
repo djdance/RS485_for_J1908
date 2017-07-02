@@ -1,0 +1,9 @@
+how to recompile NDK libs (serial and gpio)
+
+0.remove libs+obj!!!
+1.go to project root in terminal
+2. run C:\Users\djdance\AppData\Local\Android\sdk\ndk-bundle\ndk-build
+2.1 or C:\Users\djdance\AppData\Local\Android\sdk\android-ndk-r14b\ndk-build
+(according to the path to ndk, previously downloaded via SDK manager of AS)
+
+it will completely clear both libs/armeabi !!! if you want to compile one lib separately, backup others! (all, to be sure)
